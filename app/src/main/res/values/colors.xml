@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d98da</color>
+    <color name="colorPrimaryDark">#3867d6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRouteLine">#FF4081</color>
+    <color name="qr_code_reader_square">#FFFFFFFF</color>
+    <color name="red">#ffff0000</color>
+    <color name="selver">#D8D8D8</color>
+
+</resources>

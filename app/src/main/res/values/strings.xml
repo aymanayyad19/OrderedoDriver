@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Orderedo Driver</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">رقم الجوال</string>
+    <string name="password">كلمة المرور</string>
+    <string name="wrong_user_name_or_password">خطأ في البريد الاكتروني او كلمة المرور</string>
+    <string name="accept_order">قبول الطلب</string>
+    <string name="cancel_oreder">رفض الطلب</string>
+    <string name="oreder_num">رقم الطلب</string>
+    <string name="receive_order">استلام الطلب</string>
+    <string name="deliver_order">نقل الطلب</string>
+    <string name="delivery_order">تسليم الطلب</string>
+    <string name="greeting">!!!يعطيك العافية</string>
+    <string name="serch_about_new_order">البحث عن طلبات جديدة</string>
+    <string name="transportation_fees">رسوم النقل</string>
+    <string name="complete_total">المجموع الكلي</string>
+    <string name="transporte">التوصيل</string>
+    <string name="fees">الضريبة</string>
+    <string name="descount">الخصم</string>
+    <string name="total">المجموع</string>
+    <string name="Confirm_payment">تأكيد الدفع</string>
+    <string name="count">العدد</string>
+    <string name="bill">الفاتورة</string>
+    <string name="wrong_data">خطأ في المصادقة</string>
+</resources>

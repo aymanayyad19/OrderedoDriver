@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".OrderPlcaed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/order_completed" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greeting"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحةهذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_order_plcaed_return"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:onClick="goToMap"
+            android:textColor="@android:color/white"
+            android:text="@string/serch_about_new_order"
+            android:layout_margin="8dp"
+            android:layout_width="300dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/botton_background"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "1035849071689",
+    "firebase_url": "https://graduation-porject-2f968.firebaseio.com",
+    "project_id": "graduation-porject-2f968",
+    "storage_bucket": "graduation-porject-2f968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035849071689:android:8f4ec03347d33f4a",
+        "android_client_info": {
+          "package_name": "com.example.orderedodriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035849071689-9mi192iicoqoc0l2dgto588d65s7bt95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orderedodriver",
+            "certificate_hash": "6c3aaceed28e569e5bad5faee55f3583f787476e"
+          }
+        },
+        {
+          "client_id": "1035849071689-5f0q2t63tpk0uulpji5pi9bvk5lbjtjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUlAotbV66AaEgpSdGgv0scyzYCC8i7tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035849071689-5f0q2t63tpk0uulpji5pi9bvk5lbjtjb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035849071689-v8m2mac446kcbvejmfuok2olkdpmofar.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hassan.Ordredo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035849071689:android:b5d943ee45d483f5",
+        "android_client_info": {
+          "package_name": "com.orderedo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035849071689-5f0q2t63tpk0uulpji5pi9bvk5lbjtjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUlAotbV66AaEgpSdGgv0scyzYCC8i7tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035849071689-5f0q2t63tpk0uulpji5pi9bvk5lbjtjb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035849071689-v8m2mac446kcbvejmfuok2olkdpmofar.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hassan.Ordredo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

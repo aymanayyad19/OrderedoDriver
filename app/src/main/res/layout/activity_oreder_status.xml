@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".OrederStatus">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16sp"
+        android:text="@string/transportation_fees"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/iv_new_order_status_user_image"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:src="@drawable/user" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_new_order_status_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أيمن عياد"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oreder_num" />
+
+                <TextView
+
+                    android:id="@+id/tv_new_order_status_order_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DFK-501E9"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_margin="16dp"
+        android:layoutDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/complete_total"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/tv_new_order_status_sup_total"
+                android:text="asdasdasdas"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+        <View
+            android:background="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/transporte"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/tv_new_order_status_delivery_fees"
+                android:text="asdasdasdas"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+        <View
+            android:background="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/fees"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/tv_new_order_status_fees"
+                android:text="asdasdasdas"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+        <View
+            android:background="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/descount"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tv_new_order_discount"
+                android:layout_alignParentEnd="true"
+                android:text="asdasdasdas"
+                android:layout_gravity="end"
+                android:textColor="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+        <View
+            android:background="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/total"
+        />
+    <TextView
+        android:id="@+id/tv_new_order_final_total"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="$30.2221"
+        android:textColor="@color/colorPrimary"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:padding="16dp">
+       <Button
+
+           android:layout_gravity="bottom|center"
+           android:id="@+id/btn_order_plcaed_return"
+           android:textStyle="bold"
+           android:textSize="18sp"
+           android:onClick="EndOrder"
+           android:textColor="@android:color/white"
+           android:text="@string/Confirm_payment"
+           android:layout_width="300dp"
+           android:layout_height="?attr/actionBarSize"
+           android:background="@drawable/botton_background"
+           tools:ignore="OnClick" />
+   </LinearLayout>
+</LinearLayout>
